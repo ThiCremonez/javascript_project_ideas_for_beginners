@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(11, 117, 117);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 370px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+h1{
+    color: white;
+    font-family: arial;
+    font-size: 32px;
+    text-align: center;
+}
+
+#ht{
+    font-family: arial;
+    font-size: 18px;
+    padding: 30px;
+    padding-top: 60px;
+}
+
+#wt{
+    font-family: arial;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 28px;
+}
+
+#enter{
+    margin-left: 150px;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 60px;
+}
+
+/*Footer*/
+footer {
+    background: #949393;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+}
+
+.social-footer-icons{
+    font-size: 30px;
+    background-color: #d1d1d1;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.author-footer{
+    background-color: #d1d1d1;
+}
+
+i{
+    color: #ffffff;
+}
+
+.name{
+    color: #ffffff;
+    text-align: center;
+}
+/*Footer*/
+
+#res{
+    font-family: arial;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#txt{
+    padding-top: 20px;
+    font-size: 16;
+    font-family: arial;
+    text-align: center;
+}
