@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at center, rgb(225, 200, 226), rgb(226, 181, 215), rgb(218, 165, 210));
+}
+
+
+#quote {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border: 7px solid rgb(209, 91, 193);
+    box-shadow: #000000 .1rem .1rem .5rem;
+}
+
+#generator-button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#generate {
+    background-color: rgba(216, 84, 172, 0.144);
+    font-size: 18px;
+    color: #ffffff;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#author{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+/*Footer*/
+footer {
+    background: #949393;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+}
+
+.social-footer-icons{
+    font-size: 30px;
+    background-color: #d1d1d1;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.author-footer{
+    background-color: #d1d1d1;
+}
+
+i{
+    color: #ffffff;
+}
+
+.name{
+    color: #ffffff;
+    text-align: center;
+}
+/*Footer*/
