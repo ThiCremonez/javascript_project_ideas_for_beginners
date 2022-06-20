@@ -1,0 +1,79 @@
+html {
+    background-image: linear-gradient(rgb(76, 143, 219), rgb(41, 197, 158));
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #274e5e;
+    text-shadow: 2px 2px 5px white;
+    margin-top: 20px;
+}
+
+
+main {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(102, 102, 102);
+    background-image: linear-gradient(rgb(190, 190, 190), rgb(229, 231, 231));
+    padding-top: 50px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 240px;
+    }
+
+input {
+    border: 1px solid #15523d;
+    height: 18px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border-radius: 5px;
+    border: 2px solid #6fd1af;
+}
+
+/*Footer*/
+footer {
+    background: #949393;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+}
+
+.social-footer-icons{
+    font-size: 30px;
+    background-color: #d1d1d1;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.author-footer{
+    background-color: #d1d1d1;
+}
+
+i{
+    color: #ffffff;
+}
+
+.name{
+    color: #ffffff;
+    text-align: center;
+}
+/*Footer*/
