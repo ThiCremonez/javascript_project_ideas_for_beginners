@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(rgb(76, 143, 219), rgb(41, 197, 158));
+    background-image: linear-gradient(rgb(86, 124, 168), rgb(187, 236, 224));
     height: 100%;
 }
 
@@ -18,30 +18,55 @@ h1 {
 
 
 main {
-    width: 600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px rgb(102, 102, 102);
-    background-image: linear-gradient(rgb(190, 190, 190), rgb(229, 231, 231));
     padding-top: 50px;
 }
 
-form {
-    margin-left: auto;
+.choose_section {
+    height: 40px;
+    width: 600px;
     margin-right: auto;
-    margin-top: 15px;
-    width: 240px;
-    }
-
-input {
-    border: 1px solid #15523d;
-    height: 18px;
+    margin-left: auto;
+    background-color: #274e5e;
+    padding: 30px;
     border-radius: 5px;
 }
 
-input:focus{
+.choose {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.answer {
+    width: 900px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+.column-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    border: 1px solid #dbd0d0;
+    height: 22px;
+    width: 250px;
+    border-radius: 2px;
+}
+
+input:focus {
     border-radius: 5px;
     border: 2px solid #6fd1af;
 }

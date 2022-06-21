@@ -13,43 +13,76 @@
         <h1>Weight Conversion</h1>
     </header>
     <main>
-        <form>
-            <input type="text" id="mg" name="mg">
-            <label for="mg">mg</label>
-            <br><br>            
-            <input type="text" id="g" name="g">
-            <label for="g">g</label>
-            <br><br>           
-            <input type="text" id="kg" name="kg">
-            <label for="kg">kg</label>
-            <br><br>            
-            <input type="text" id="t" name="t">
-            <label for="t">t</label>
-            <br><br>
-            <input type="text" id="oz" name="oz">
-            <label for="oz">oz</label>
-            <br><br>
-            <input type="text" id="lb" name="lb">
-            <label for="lb">lb</label>
-            <br><br>           
-            <input type="text" id="stone" name="stone">
-            <label for="stone">stone</label>
-            <br><br>           
-            <input type="text" id="uston" name="uston">
-            <label for="uston">US ton</label>
-            <br><br>            
-            <input type="text" id="u" name="u">
-            <label for="u">u</label>
-            <br><br>            
-            <input type="text" id="ozt" name="ozt">
-            <label for="ozt">oz t</label>
-            <br><br>            
-            <input type="text" id="earths" name="earths">
-            <label for="earths">Earths</label>
-            <br><br>            
-            <input type="text" id="suns" name="suns">
-            <label for="suns">Suns</label><br>
-        </form>
+        <section class="choose_section">
+            <form class="choose">
+                <input type="text" id="num_choose" name="num_choose">
+                <select name="unit" id="unit">
+                        <option value="miligrams">Miligrams</option>
+                        <option value="grams">Grams</option>
+                        <option value="kilograms">Kilograms</option>
+                        <option value="tons">Tons</option>
+                        <option value="ounces">Onces</option>
+                        <option value="pounds">Pounds</option>
+                        <option value="troy_ounces">Troy Onces</option>                  
+                        <option value="pennyweight">Pennyweight</option>
+                        <option value="grains">Grains</option>
+                        <option value="stone">Stone</option>
+                        <option value="atomic_mass">Atomic Mass</option>
+                        <option value="us_ton">US Ton</option>
+                        <option value="earths">Earths</option>
+                        <option value="suns">Suns</option>
+                </select>
+            </form>
+        </section>
+        <section class="answer_section">
+            <form class="answer">
+                <div class="column-1">  
+                    <label for="mg">Miligrams (mg)</label><br>
+                    <input type="text" id="mg" name="mg">
+                    <br><br>
+                    <label for="kg">Kilograms (kg)</label><br>           
+                    <input type="text" id="kg" name="kg">                
+                    <br><br>
+                    <label for="oz">Onces (oz)</label><br>
+                    <input type="text" id="oz" name="oz">               
+                    <br><br>
+                    <label for="lb">Pounds (lb)</label><br>
+                    <input type="text" id="lb" name="lb">
+                    <br><br>
+                    <label for="st">Stone</label><br>         
+                    <input type="text" id="st" name="st">                          
+                    <br><br>
+                    <label for="nt">Newtons (N)</label><br>          
+                    <input type="text" id="nt" name="nt">             
+                    <br><br> 
+                    <label for="e">Earths</label><br>          
+                    <input type="text" id="e" name="e">
+                    <br><br>
+                </div> 
+                <div class="column-2">
+                    <label for="g">Grams (g)</label><br>         
+                    <input type="text" id="g" name="g">
+                    <br><br>
+                    <label for="t">Tons (t)</label><br>            
+                    <input type="text" id="t" name="t">               
+                    <br><br>
+                    <label for="t_o">Troy Onces</label><br>         
+                    <input type="text" id="t_o" name="t_o">            
+                    <br><br>
+                    <label for="gra">Grains</label><br>         
+                    <input type="text" id="gra" name="gra">            
+                    <br><br>
+                    <label for="uston">US ton</label><br>          
+                    <input type="text" id="uston" name="uston">             
+                    <br><br> 
+                    <label for="u">Atomic Mass (u)</label><br>        
+                    <input type="text" id="u" name="u">      
+                    <br><br>
+                    <label for="suns">Suns</label><br>           
+                    <input type="text" id="sun" name="sun">
+                </div>  
+            </form>
+        </section>
     </main>
 
     <!---footer--->
@@ -67,5 +100,6 @@
             <p class="name">@thicremonez</p>
         </div>
     </footer>
+    <script src="weight-conversion-project.js"></script>
 </body>
 </html>
