@@ -13,9 +13,10 @@
         <h1>Weight Conversion</h1>
     </header>
     <main>
+    <onkeypress="toMg()" onkeydown="toMg()" onkeyup="toMg()" onfocus="toMg()" onchange="toMg()"></onkeypress>
         <section class="choose_section">
-            <form class="choose">
-                <input type="text" id="num_choose" name="num_choose">
+            <form class="choose" action="">
+                <input type="text" id="num_c" name="num_c">
                 <select name="unit" id="unit">
                         <option value="miligrams">Miligrams</option>
                         <option value="grams">Grams</option>
@@ -52,7 +53,7 @@
                     <label for="st">Stone</label><br>         
                     <input type="text" id="st" name="st">                          
                     <br><br>
-                    <label for="nt">Newtons (N)</label><br>          
+                    <label for="nt">Pennyweight (dwt)</label><br>          
                     <input type="text" id="nt" name="nt">             
                     <br><br> 
                     <label for="e">Earths</label><br>          
