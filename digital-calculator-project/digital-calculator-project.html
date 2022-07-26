@@ -17,25 +17,25 @@
     <main>
         <form class="calc">
             <input type="text" class="display" value="0">
-            <button type="button" class="btn clear">C</button>
-            <button type="button" class="btn percent">%</button>
-            <button type="button" class="btn divided">/</button>
-            <button type="button" class="btn times">*</button>
-            <button type="button" class="btn seven">7</button>
-            <button type="button" class="btn eight">8</button>
-            <button type="button" class="btn nine">9</button>
-            <button type="button" class="btn minus">-</button>
-            <button type="button" class="btn for">4</button>
-            <button type="button" class="btn five">5</button>
-            <button type="button" class="btn six">6</button>
-            <button type="button" class="btn plus">+</button>
-            <button type="button" class="btn one">1</button>
-            <button type="button" class="btn two">2</button>
-            <button type="button" class="btn three">3</button>
-            <button type="button" class="btn iqual">=</button>
-            <button type="button" class="btn zero">0</button>
-            <button type="button" class="btn point">.</button>
-            <button type="button" class="btn dublezero">00</button>
+            <button type="button" class="btn clear" onclick="clean()">C</button>
+            <button type="button" class="btn sqrt" onclick="sqrt()">√</button>
+            <button type="button" class="btn divided" onclick="enterKeySpecial('/')">/</button>
+            <button type="button" class="btn times" onclick="enterKeySpecial('*')">*</button>
+            <button type="button" class="btn seven" onclick="enterKey('8')">7</button>
+            <button type="button" class="btn eight" onclick="enterKey('8')">8</button>
+            <button type="button" class="btn nine" onclick="enterKey('9')">9</button>
+            <button type="button" class="btn minus" onclick="enterKeySpecial('-')">-</button>
+            <button type="button" class="btn four" onclick="enterKey('4')">4</button>
+            <button type="button" class="btn five" onclick="enterKey('5')">5</button>
+            <button type="button" class="btn six" onclick="enterKey('6')">6</button>
+            <button type="button" class="btn plus" onclick="enterKeySpecial('+')">+</button>
+            <button type="button" class="btn one" onclick="enterKey('1')">1</button>
+            <button type="button" class="btn two" onclick="enterKey('2')">2</button>
+            <button type="button" class="btn three" onclick="enterKey('3')">3</button>
+            <button type="button" class="btn iqual" onclick="result()">=</button>
+            <button type="button" class="btn zero" onclick="enterKey('0')">0</button>
+            <button type="button" class="btn point" onclick="enterKey('.')">.</button>
+            <button type="button" class="btn doublezero" onclick="enterKey('00')">00</button>
         </form>
     </main>
     <!---footer--->

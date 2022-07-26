@@ -16,7 +16,7 @@ body {
 main {
     height: 400px;
     width: 300px;
-    background: rgb(118, 115, 115);
+    background: rgb(151, 149, 149);
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -72,8 +72,16 @@ button:active {
 
 .iqual:active {
     margin-left: -40px;
+    background: #cf7951;
 }
 
+.clear {
+    background-color: rgb(167, 82, 82);
+}
+
+.clear:active {
+    background: rgb(145, 54, 54);
+}
 
 .three {
     margin-right: 50px;
